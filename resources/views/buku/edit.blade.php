@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <div class="container mx-auto mt-10 p-6 bg-white shadow-md rounded-md w-2/3">
-    <h4 class="text-lg font-semibold mb-4">Update Buku</h4>
+    <h4 class="text-lg font-semibold mb-4">Update Bukuuuu</h4>
     <form action="{{ route('buku.update', $buku->id) }}" method="POST">
         @csrf
         <div class="mb-4">
